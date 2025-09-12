@@ -1,0 +1,18 @@
+/*
+Threee ways to add CSS
+1 - Inline
+2 - Internal
+3 - EXternal
+
+selector is the element on which we apply style on 
+i:e "The styling Element" for example => h1 is selector;
+There are four types of selectors:
+1 - element    h1, p , article
+2 - id => works by giving specific id to the selectors.
+3 - class => multiple selectors can have the same class but not
+same id. for example 3 paragraphs having the same class named "para"
+4 - group
+
+The priority of applying styles is as follow:
+inline > internal > external
+*/

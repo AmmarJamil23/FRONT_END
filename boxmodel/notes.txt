@@ -1,0 +1,9 @@
+Box model means that every element in the html is
+rendered as a rectangle/box by the browser.
+It has four components:
+1 - Content
+2 - Padding
+3 - Border
+4 - Margin
+
+Distance between content and border is padding.

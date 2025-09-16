@@ -7,3 +7,4 @@ It has four components:
 4 - Margin
 
 Distance between content and border is padding.
+Distance between two boxes is called margin

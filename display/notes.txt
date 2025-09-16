@@ -1,0 +1,26 @@
+We can use display property to make an element view on the browser
+It specifies the display behavior (the rendering on the browser)
+
+BLOCK ELEMENT:
+div, p , h1
+They appear on the sepearte line
+They occupy whole space from left to right
+They respect custom widht and height
+They respect custom padding and margins.
+To study about 10 block level elements.
+
+Box-sizing => border-Box
+
+INLINE ELEMENT:
+They try to appear in the same line
+They have default width as content width
+They do not respect custom width and height
+They respect horizontal margin not vertical margin.
+They respect both horizontal and vertical padding.
+
+
+We can change that 
+
+USING INLINE BLOCK:
+The above property will behave like inline element but 
+we can apply custom widdht and height on the element

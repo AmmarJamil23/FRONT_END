@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Structure</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      background: darkslateblue;
+      color: white;
+      height: 100px;
+      line-height: 50px;
+      text-align: center;
+    }
+
+    .header {
+      background: lightblue;
+      height: 100px;
+      line-height: 120px;
+      text-align: center;
+      font-size: 28px;
+      float: left;
+      width: 100%;
+    }
+
+    .nav {
+      background: lightgreen;
+      width: 15%;
+      height: 500px;
+      float: left;
+      padding: 15px;
+    }
+
+    /* Main Content */
+    .main {
+      background: lightcoral;
+      width: 50%;
+      height: 500px;
+      float: left;
+      padding: 15px;
+    }
+
+    .sidebar {
+      background: rgb(93, 222, 49);
+      width: 20%;
+      height: 500px;
+      float: left;
+      padding: 15px;
+    }
+
+  .extraside {
+  width: 15%;
+  height: 500px;
+  float: left;
+  padding: 0; /* remove padding so image fills area */
+}
+
+.extraside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* makes the image fill and crop smoothly */
+  display: block;      /* removes small gaps */
+}
+
+    .footer {
+      background: rgb(166, 235, 71);
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      float: left;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+    <h1 class="topbar">Header</h1>
+  <div class="header">Navigation Bar</div>
+
+  <div class="nav">
+    <h3>SideBar Navigation</h3>
+    <p><a href="#">Hello</a></p>
+    <p><a href="#">Hello 2</a></p>
+    <p><a href="#">Hello 3</a></p>
+  </div>
+
+  <div class="main">
+    <h2>Main Content</h2>
+    <p>Islamabad.</p>
+  </div>
+
+  <div class="sidebar">
+    <h3>Sidebar</h3>
+    <p>Useful links, ads, or widgets go here.</p>
+  </div>
+
+ <div class="extraside">
+    <p>Advertisement</p>
+  <img src="download.jpeg" alt="Advertisement">
+</div>
+
+
+  <div class="footer">All copyrights reserved.</div>
+
+</body>
+</html>

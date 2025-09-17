@@ -1,0 +1,5 @@
+position default behavior is static. where they will
+act liek a normal block or inline element
+
+in relative positive we can use top left bottom right property to 
+move the element

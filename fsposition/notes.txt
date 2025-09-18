@@ -1,0 +1,14 @@
+static => the element follows the normal document follows
+
+relative => the element follows the normal document followsbut can be offfset relative
+to itself by reference position/default positino oof the staticused
+
+absolute => the element is removed from the
+normal documentation. When positioning an absolute positioned 
+element, the reference point is the root html element.
+
+fixed => like absolute but do reamisn fixed relative to the 
+viewport
+
+sticky => it is like fixedthe elemet is in normal flow until 
+cetain hit point

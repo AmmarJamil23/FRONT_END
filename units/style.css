@@ -1,0 +1,51 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* .box1 {
+    width:25%;
+    height:100px;
+    background-color:aqua;
+    border: 2px solid black;
+    margin: 20px;
+} */
+
+/* .parent {
+    width:50%;
+    border:2px solid black;
+    background-color: rgb(158, 158, 176);
+}
+
+.child {
+    border:2px solid aquamarine;
+    background-color: yellow;
+    width:25%;
+} */
+
+
+/* .container {
+    background-color:bisque;
+    border:1px solid black;
+    height:100vh;
+    width:50vw;
+} */
+
+/* .box {
+    border: 2px solid black;
+    font-size: 30px;
+} */
+
+/* .container {
+    font-size:10px;
+}
+
+.box {
+    font-size: 10em;
+} */
+
+.firstpara {
+    border: 1px solid black;
+    font-size:5rem;
+}

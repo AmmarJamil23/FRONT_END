@@ -1,0 +1,6 @@
+ppi => pixel per inch , the greater, the sharper the image.
+
+vw , vh => total screen size
+
+% => percentage of the parent element if no parent element then body tag
+1px = (1 / 96) of inch

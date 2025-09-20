@@ -1,0 +1,39 @@
+By default the flex direcion is row
+
+flex-direction : row
+box1 box2 box3
+
+flex-direction : row-reverse
+
+box3 box2 box1
+
+flex-direction :column
+box1
+box2
+box3
+
+flex-wrap
+
+short hand notation
+flex-flow =. h/wrap
+
+justify-content => places things according to main axis
+
+
+align-items => laces thing according to cross axis
+flex-start, flex-end, center
+
+
+
+
+flex-items : oreder for sequence
+
+flex-shrink
+flex-grow
+
+
+shorthand notation
+
+flex: flex-grow  flex-shrink flexbasis
+
+

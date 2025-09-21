@@ -1,0 +1,1 @@
+mediaquery => a tool that we used to arrange elements on the display according to the screen size

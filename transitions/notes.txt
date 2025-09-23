@@ -1,0 +1,9 @@
+you have to define the state using pseudo class like hover,
+click to see these transitions.
+
+short hand notation
+
+transition => property duration
+              property duration delay
+              property duration delay timing-function
+              property duration delay timing-function

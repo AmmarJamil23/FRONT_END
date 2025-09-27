@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height:100vh;
+            width:100vw;
+            background-color: beige;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(220, 233, 233);
+            display: grid;
+            /* grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr); */
+
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            padding:4rem;
+            gap:0.7rem;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .one {
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* for layout 7
+            grid-column-start: 1;
+            grid-column-end: 3; */
+            
+            /*for layout 6
+             grid-column-start: 1;
+            grid-column-end: 3; */
+
+            /* for layout 4
+            grid-column-start: 1;
+            grid-column-end: 3; */
+            /* for layout three
+            grid-column-start: 1;
+            grid-column-end: 4; */
+            /* 
+            For layout 2
+            grid-column-start: 1;
+            grid-column-end: 3; */
+        }
+        .two {
+            background-color: blueviolet;
+         
+            grid-row-start: 2;
+            grid-row-end: 4;
+            /* for layout 7
+            grid-column-start: 3;
+            grid-column-end: 5; */
+            /* for layout 4
+            grid-column-start: 3;
+            grid-column-end: 5; */
+            /*For layout 2
+            /* grid-row-start: 1;
+            grid-row-end: 3;   
+            grid-column-start: 3;
+            grid-column-end: 4;  */
+        
+            
+        }
+        .three {
+            background-color: yellowgreen;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            /* for layout 7 
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4; */
+
+            /*for layout 3 
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4; */
+        }
+        .four {
+            background-color: brown;
+            /*for layout 7
+             grid-column-start: 3;
+            grid-column-end: 5; */
+            /* for layout four
+            grid-column-start: 2;
+            grid-column-end: 5; */
+            
+            /* 
+            for layout three
+            grid-column-start: 1;
+            grid-column-end: 4; */
+        }
+        .five {
+            background-color: aquamarine;
+            /*for layout 4
+             grid-column-start: 1;
+            grid-column-end: 5; */
+        }
+        .six {
+            background-color: yellow;
+        }
+
+        /* for layout 8
+        .two2 {
+            background-color: greenyellow;
+        }
+
+        .three2 {
+            grid-column-start: 3;
+            grid-column-end: 6;background-color: orange;
+
+        }
+
+        .four2 {
+            grid-column-start: 1;
+            grid-column-end: 6;
+            background-color: aqua;
+        } */
+
+        /*
+        for layout 6
+         .four2 {
+            background-color: bisque;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .one2 {
+            background-color: pink;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .two2 {
+            background-color: orange;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .three2 {
+            background-color: orangered;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .six2 {
+            background-color: burlywood;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+
+        } */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item one">One</div>
+        <div class="item two">Two</div>
+        <div class="item three">Three</div>
+        <div class="item four">Four </div>
+        <div class="item five">Five </div>
+        <div class="item six">SIx</div>
+
+        <!-- for layout 8 
+        <div class="item two2">Two</div>
+        <div class="item three2">Three</div>
+        <div class="item four2">Four </div> -->
+      
+
+        <!--
+        for layout 6
+         <div class="item one2">One</div>
+        <div class="item two2">Two</div>
+        <div class="item three2">Three</div>
+        <div class="item four2">Four </div>
+        <div class="item five">Five </div>
+        <div class="item six2">SIx</div> -->
+
+        <!-- layout five
+        <div class="item one">One</div>
+        <div class="item two">Two</div>
+        <div class="item three">Three</div>
+        <div class="item four">Four </div>
+        <div class="item five">Five </div>
+        <div class="item six">SIx</div>
+
+            <div class="item one">One</div>
+        <div class="item two">Two</div>
+        <div class="item three">Three</div>
+        <div class="item four">Four </div>
+        <div class="item five">Five </div>
+        <div class="item six">SIx</div> -->
+    </div>
+    
+</body>
+</html>

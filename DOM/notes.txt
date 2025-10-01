@@ -1,0 +1,16 @@
+DOM: 
+When a web page is loaded, the browser creates a document object model
+of the page. In the form fo tree. The whole code is avaialalbe In
+the html code and the html code is avaiable in the window object.
+It is a tree like structure
+document is the model/representation fo the html code
+
+window => document  => html => head 1- meta 2- meta 3- title  4- link
+                            
+                            => body 1 - div  2- script
+dynamic changes can be done by js => runtime changes
+
+we can pass any thing id/class/tag in 
+document.queryselector
+ 
+   
